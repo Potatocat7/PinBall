@@ -4,8 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class ScoreCount : MonoBehaviour {
+    //課題：スコア表示用Textオブジェクトに設定するスクリプト
     //スコアの数値部
-    public static int countScore;
+    public int countScore;
 
     //スコア表示用テキスト
     private GameObject gameScoreText;
